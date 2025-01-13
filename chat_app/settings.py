@@ -11,7 +11,7 @@ environ.Env.read_env()
 
 SECRET_KEY = env('SECRET_KEY')
 
-# SECURITY WARNING: don't run with debug turned on in production!
+# SECURITY WARNING: don't run with 
 DEBUG = True
 ALLOWED_HOSTS = []
 
