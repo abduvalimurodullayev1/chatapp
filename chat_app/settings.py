@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 import environ
 env = environ.Env()
 environ.Env.read_env()
-# SECURITY WARNING: keep the secret key 
+# SECURITY WARNING: 
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
